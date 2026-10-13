@@ -1,0 +1,60 @@
+import { Category } from "@/types";
+
+export const categories: Category[] = [
+  {
+    id: "gowns",
+    name: "Evening & Cocktail Gowns",
+    slug: "gowns",
+    tagline: "High-slit velvets, dramatic trains & sculpted corsetry",
+    itemCount: 42,
+    image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "ethnic",
+    name: "Ethnic & Bridal Couture",
+    slug: "ethnic",
+    tagline: "Hand-embroidered zardozi lehengas & pure organza sarees",
+    itemCount: 38,
+    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "western",
+    name: "Western Pret & Midi Dresses",
+    slug: "western",
+    tagline: "Effortless daytime elegance & architectural silhouettes",
+    itemCount: 56,
+    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "coords",
+    name: "Designer Co-ord Sets",
+    slug: "coords",
+    tagline: "Tailored satin blazers & flowing wide-leg trousers",
+    itemCount: 29,
+    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "party",
+    name: "Festive & Party Edit",
+    slug: "party",
+    tagline: "Champagne metallics, sequin embellishments & gilded glam",
+    itemCount: 34,
+    image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "beauty",
+    name: "Haute Parfumerie & Beauty",
+    slug: "beauty",
+    tagline: "Niche amber elixirs, velvet lip pigments & golden skin oils",
+    itemCount: 22,
+    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1200&auto=format&fit=crop",
+  },
+  {
+    id: "accessories",
+    name: "Atelier Jewellery & Belts",
+    slug: "accessories",
+    tagline: "Handcrafted 18k gold vermeil jewels & sculptural minaudieres",
+    itemCount: 31,
+    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=1200&auto=format&fit=crop",
+  },
+];
